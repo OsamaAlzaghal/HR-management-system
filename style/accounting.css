@@ -1,43 +1,55 @@
+*{  font-family: "Roboto", Arial, Helvetica, sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 header{
     display: flex;
     align-items: center;
     height:80px;
     justify-content: space-between;
-    background-color: rgb(14, 30, 168);
+    background-color: #222E38;
 }
-
+header div{
+    margin-left: 25px;
+}
 header a{    
     text-transform: uppercase;
     font-size: 14px;
     padding: 10px 40px;    
-    font-weight: 300;
-    background-color: rgb(255, 91, 173);
+    font-weight: 700;
+    background-color: #219f94;
     text-decoration: none;
-    color: #000; 
-    
-} 
+    color: #fff;   
+}
 
 footer{
     width: 100%;
-    bottom: 0px;
-    position: absolute;
+    bottom: 0;
     padding-top: 10px; 
     padding-bottom: 10px; 
     display: flex;
     align-items: center;
-    justify-content: center;   
-    background-color: rgb(14, 30, 168); 
-}
+    justify-content: space-between;
+    background-color:#222E38;
+    color: white;
+    position: absolute;
 
+}  
 footer p{
-    font-size: large;
-    font-weight: bold;
-}
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-left: 40%;
 
-.facebook, .linkedin, .instagram, .youtube, .twitter {
+}
+.links a img {
     width: 34px;
+    margin-right: 10px;
 }
-
 .links{
-    margin-left: 30px;
+    margin-right: 20px;
 }
